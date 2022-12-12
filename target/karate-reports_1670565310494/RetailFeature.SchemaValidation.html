@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ec97933e-0cea-4a71-abdd-af1dc827178e",{name:"ferai"});
+    posthog.capture("report_feature",{karate_version:"1.3.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>RetailFeature.SchemaValidation</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-08 12:35:25 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[2:49]"><span>[2:49]</span> <span></span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">RetailFeature/SchemaValidation.feature</span><span class="feature-label">|</span>
+          <span class="feature-name"></span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:49]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CancelOrderSchemaValidation</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:49]</span>
+                <span class="scenario-name"></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1094</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://tek-retail-api.azurewebsites.net&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.50">00:35:24.724 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenFile = call read(&quot;Generate.feature&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">911</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.51.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">RetailFeature.Generate</div>
+      </div>
+      <div class="time-cell passed">899</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.51.0.call">
+    <div class="step-container" id="0.51.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>url &quot;https://tek-retail-api.azurewebsites.net&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.51.0.call">
+    <div class="step-container" id="0.51.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &quot;/auth/login&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.51.0.call">
+    <div class="step-container" id="0.51.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>request {&quot;email&quot;: &quot;farifari@gmail.com&quot;,&quot;password&quot;: &quot;Qwerty@2&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">38</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.51.0.call">
+    <div class="step-container" id="0.51.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">855</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.51.0.call.0.8">00:35:25.243 request:
+1 &gt; POST https://tek-retail-api.azurewebsites.net/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 52
+1 &gt; Host: tek-retail-api.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;farifari@gmail.com&quot;,&quot;password&quot;:&quot;Qwerty@2&quot;}
+
+00:35:25.657 response time in milliseconds: 411
+1 &lt; 200
+1 &lt; Content-Length: 375
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Thu, 08 Dec 2022 05:35:26 GMT
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;177-LS2DZ1D8HOnIjbcxY2UgOvdld7M&quot;
+1 &lt; X-Powered-By: Express
+{&quot;name&quot;:&quot;fari&quot;,&quot;email&quot;:&quot;farifari@gmail.com&quot;,&quot;userId&quot;:1995,&quot;role&quot;:&quot;customer&quot;,&quot;roleId&quot;:1967,&quot;phoneNumber&quot;:null,&quot;accessToken&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZmFyaSIsImVtYWlsIjoiZmFyaWZhcmlAZ21haWwuY29tIiwidXNlcklkIjoxOTk1LCJyb2xlIjoiY3VzdG9tZXIiLCJyb2xlSWQiOjE5NjcsInBob25lTnVtYmVyIjpudWxsLCJpYXQiOjE2NzA0Nzc3MjZ9.HQlfimcgJD1iCXFELq5RRtDuHkWEMzfOqytg4-Mmt4g&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.51.0.call">
+    <div class="step-container" id="0.51.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.51.0.call">
+    <div class="step-container" id="0.51.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.51.0.call.0.10">00:35:25.666 [print] {
+  &quot;name&quot;: &quot;fari&quot;,
+  &quot;email&quot;: &quot;farifari@gmail.com&quot;,
+  &quot;userId&quot;: 1995,
+  &quot;role&quot;: &quot;customer&quot;,
+  &quot;roleId&quot;: 1967,
+  &quot;phoneNumber&quot;: null,
+  &quot;accessToken&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZmFyaSIsImVtYWlsIjoiZmFyaWZhcmlAZ21haWwuY29tIiwidXNlcklkIjoxOTk1LCJyb2xlIjoiY3VzdG9tZXIiLCJyb2xlSWQiOjE5NjcsInBob25lTnVtYmVyIjpudWxsLCJpYXQiOjE2NzA0Nzc3MjZ9.HQlfimcgJD1iCXFELq5RRtDuHkWEMzfOqytg4-Mmt4g&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def Token = tokenFile.response.accessToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header x-access-token = Token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &quot;/order/buy-again/737&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>request {&quot;addressId&quot;: 1251,&quot;paymentId&quot;: 1451}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">163</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.56">00:35:25.670 request:
+1 &gt; POST https://tek-retail-api.azurewebsites.net/order/buy-again/737
+1 &gt; x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZmFyaSIsImVtYWlsIjoiZmFyaWZhcmlAZ21haWwuY29tIiwidXNlcklkIjoxOTk1LCJyb2xlIjoiY3VzdG9tZXIiLCJyb2xlSWQiOjE5NjcsInBob25lTnVtYmVyIjpudWxsLCJpYXQiOjE2NzA0Nzc3MjZ9.HQlfimcgJD1iCXFELq5RRtDuHkWEMzfOqytg4-Mmt4g
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 35
+1 &gt; Host: tek-retail-api.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;addressId&quot;:1251,&quot;paymentId&quot;:1451}
+
+00:35:25.830 response time in milliseconds: 159
+1 &lt; 200
+1 &lt; Content-Length: 656
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Thu, 08 Dec 2022 05:35:26 GMT
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;290-41f2jb2d3q5H5CDaWlkJ96NIVMs&quot;
+1 &lt; X-Powered-By: Express
+{&quot;id&quot;:782,&quot;number&quot;:&quot;477726463&quot;,&quot;date&quot;:&quot;2022-12-08T05:35:26.000Z&quot;,&quot;price&quot;:4498,&quot;quantity&quot;:5,&quot;deliverDate&quot;:&quot;2022-12-11T05:35:26.000Z&quot;,&quot;status&quot;:0,&quot;cardNumber&quot;:&quot;6773020012233243&quot;,&quot;country&quot;:&quot;United States&quot;,&quot;fullName&quot;:&quot;finjon Doe&quot;,&quot;phoneNumber&quot;:&quot;0787931984&quot;,&quot;street&quot;:&quot;8642 Yule Street, Arvada CO&quot;,&quot;apartment&quot;:&quot;H.no 15&quot;,&quot;city&quot;:&quot;New York&quot;,&quot;state&quot;:&quot;Idaho&quot;,&quot;zipCode&quot;:30012,&quot;products&quot;:[{&quot;descriptiveName&quot;:&quot;Sony 85 Inch 4K Ultra HD TV X95K Series: BRAVIA XR Mini LED Smart Google TV with Dolby Vision HDR and Exclusive Features for The Playstation® 5 XR85X95K- 2022 Model&quot;,&quot;name&quot;:&quot;Sony HD TV &quot;,&quot;imageUrl&quot;:&quot;/images/products/6_7.jpg&quot;,&quot;id&quot;:7,&quot;quantity&quot;:5,&quot;price&quot;:4498}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.58">00:35:25.834 [print] {
+  &quot;id&quot;: 782,
+  &quot;number&quot;: &quot;477726463&quot;,
+  &quot;date&quot;: &quot;2022-12-08T05:35:26.000Z&quot;,
+  &quot;price&quot;: 4498,
+  &quot;quantity&quot;: 5,
+  &quot;deliverDate&quot;: &quot;2022-12-11T05:35:26.000Z&quot;,
+  &quot;status&quot;: 0,
+  &quot;cardNumber&quot;: &quot;6773020012233243&quot;,
+  &quot;country&quot;: &quot;United States&quot;,
+  &quot;fullName&quot;: &quot;finjon Doe&quot;,
+  &quot;phoneNumber&quot;: &quot;0787931984&quot;,
+  &quot;street&quot;: &quot;8642 Yule Street, Arvada CO&quot;,
+  &quot;apartment&quot;: &quot;H.no 15&quot;,
+  &quot;city&quot;: &quot;New York&quot;,
+  &quot;state&quot;: &quot;Idaho&quot;,
+  &quot;zipCode&quot;: 30012,
+  &quot;products&quot;: [
+    {
+      &quot;descriptiveName&quot;: &quot;Sony 85 Inch 4K Ultra HD TV X95K Series: BRAVIA XR Mini LED Smart Google TV with Dolby Vision HDR and Exclusive Features for The Playstation® 5 XR85X95K- 2022 Model&quot;,
+      &quot;name&quot;: &quot;Sony HD TV &quot;,
+      &quot;imageUrl&quot;: &quot;/images/products/6_7.jpg&quot;,
+      &quot;id&quot;: 7,
+      &quot;quantity&quot;: 5,
+      &quot;price&quot;: 4498
+    }
+  ]
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.59">{
+&quot;id&quot;: &#39;#number&#39;,
+&quot;number&quot;: &quot;#string&quot;,
+&quot;date&quot;: &quot;#string&quot;,
+&quot;price&quot;: &quot;#number&quot;,
+&quot;quantity&quot;: &quot;#number&quot;,
+&quot;deliverDate&quot;: &quot;#string&quot;,
+&quot;status&quot;: &quot;#number&quot;,
+&quot;cardNumber&quot;: &quot;#string&quot;,
+&quot;country&quot;: &quot;#string&quot;,
+&quot;fullName&quot;: &quot;#string&quot;,
+&quot;phoneNumber&quot;: &quot;#string&quot;,
+&quot;street&quot;: &quot;#string&quot;,
+&quot;apartment&quot;: &quot;#string&quot;,
+&quot;city&quot;: &quot;#string&quot;,
+&quot;state&quot;: &quot;#string&quot;,
+&quot;zipCode&quot;: &quot;#number&quot;,
+&quot;products&quot;: [
+{
+&quot;descriptiveName&quot;: &quot;#string&quot;,
+&quot;name&quot;: &quot;#string&quot;,
+&quot;imageUrl&quot;: &quot;#string&quot;,
+&quot;id&quot;: &quot;#number&quot;,
+&quot;quantity&quot;: &quot;#number&quot;,
+&quot;price&quot;: &quot;#number&quot;
+}
+]
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
